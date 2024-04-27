@@ -1,0 +1,14 @@
+[Unit]
+Description=Mail Service to send systeminformation
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/path/to/venv/exec /path/to/setup.py
+Restart=always
+RestartSec=10
+StandardOutput=file:/var/log/info-mail.log
+StandardError=file:/var/log/info-mail-error.log
+
+[Install]
+WantedBy=multi-user.target

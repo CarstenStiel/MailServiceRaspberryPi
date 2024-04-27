@@ -1,0 +1,5 @@
+psutil==5.9.8
+requests==2.31.0
+importlib_metadata==7.1.0
+platformdirs==4.2.1
+sockets==1.0.0
