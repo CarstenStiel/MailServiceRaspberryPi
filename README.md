@@ -100,7 +100,7 @@ systemctl stop info-mail.service
 ````
 <br>
 
-It's worth noting that changes made to the [settings.conf](settings.conf) file <b>do not</b> require a restart of the service.
+It's worth noting that changes made to the [settings.conf](settings.conf) file require a restart of the service.
 
 ## Contributing
 Your contributions mean a lot! As I work on developing this project further, I'm enthusiastic about learning and welcome any feedback. Your insights and suggestions are valued!
